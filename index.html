@@ -52,25 +52,40 @@
       <p>- Fin - du tableau test.</p>
       <table>
         <tr>
-            <th>Titre du film</th>
-            <td>Massacre à la tronçonneuse</td>
-            <td>Les bisounours font du ski</td>
-            <td>Lucky Luke, seul contre tous</td>
+          <th>Titre du film</th>
+          <td>Massacre à la tronçonneuse</td>
+          <td>Les bisounours font du ski</td>
+          <td>Lucky Luke, seul contre tous</td>
         </tr>
         <tr>
-            <th>Pour enfants ?</th>
-            <td rowspan="2">Pour toute la famille !</td>
-            <td>Non, trop violent</td>
-            
-            <td>Oui, adapté</td>
-            
+          <th>Pour enfants ?</th>
+          <td rowspan="2">Pour toute la famille !</td>
+          <td>Non, trop violent</td>
+
+          <td>Oui, adapté</td>
         </tr>
         <tr>
-            <th>Pour adolescents ?</th>
-            <td>Oui</td>
-            <td>Pas assez violent...</td>
+          <th>Pour adolescents ?</th>
+          <td>Oui</td>
+          <td>Pas assez violent...</td>
         </tr>
-     </table>
+      </table>
+      <p>- Fin - tableau</p>
+
+      <p>- Start - formulaire.</p>
+
+      <form method="post" action="traitement.php">
+        <p>
+
+          <label for="pseudo">Votre pseudo : </label>
+          <input type="text" name="Pseudo" id="pseudo" size="50" maxlength="10" placeholder="Ex : Tartuffe (max 10 caractères)" />
+
+          <br />
+          <label for="pass">Votre mot de passe : </label>
+          <input type="password" name="pass" />
+        </p>
+      </form>
+      <p>-- fin du formulaire-- </p>
     </body>
   </div>
 </html>
